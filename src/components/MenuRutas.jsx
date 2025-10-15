@@ -14,6 +14,9 @@ export default class MenuRutas extends Component {
             <li>
                 <a href="/musica">Música</a>
             </li>
+            <li>
+                <a href="/formsimple">Form simple</a>
+            </li>
         </ul>
       </div>
     )
