@@ -4,10 +4,12 @@ import './index.css';
 import App from './App/App';
 import reportWebVitals from './reportWebVitals';
 import Router from './components/Router';
+import MenuRutas from './components/MenuRutas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <MenuRutas />
     <h1>INDEX PRINCIPAL</h1>
     <hr/>
       <Router/>      
