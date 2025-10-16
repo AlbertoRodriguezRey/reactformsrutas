@@ -4,6 +4,7 @@ import Home from './Home'
 import Cine from './Cine'
 import Musica from './Musica'
 import FormSimple from './FormSimple'
+import Collatz from './Collatz'
 
 export default class Router extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class Router extends Component {
             <Route path="/cine" element={<Cine/>}/>
             <Route path="/musica" element={<Musica/>}/>
             <Route path='/formsimple' element={<FormSimple />}/>
+            <Route path='/collatz' element={<Collatz />}/>
         </Routes>
       </BrowserRouter>
     )
